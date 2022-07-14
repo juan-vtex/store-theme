@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -18,11 +19,11 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 570,
+      "height": 900,
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+          "image": "https://cuerosvelezco.vteximg.com.br/arquivos/homeSale_110722_20DCTO_Desktop.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
         },
         {
@@ -47,7 +48,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## ¡Hola hijo!",
       "blockClass": "shelfTitle"
     }
   },

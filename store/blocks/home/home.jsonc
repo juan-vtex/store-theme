@@ -7,7 +7,6 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
-      "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
       "rich-text#question",
@@ -46,7 +45,7 @@
     }
   },
 
-  "rich-text#shelf-title": {
+  "rich-text#saludo": {
     "props": {
       "text": "## ¡Hola hijo!",
       "blockClass": "shelfTitle"
@@ -77,12 +76,12 @@
 
   "info-card#home": {
     "props": {
-      "id": "info-card-home",
+      "id": "info-card-homye",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
+      "imageUrl": "https://aguabendita.vtexassets.com/assets/vtex.file-manager-graphql/images/8b7c57c7-16dc-4ad9-b785-fcd2a408714b___851ee5e42dd835e4ef55e4495db24792.jpg",
+      "headline": "Novedades",
+      "callToActionText": "Descubre",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"

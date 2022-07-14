@@ -9,9 +9,18 @@
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #e6f1e6;
+  background-color: #83c2b5;
   padding: 0px;
 }
+
+.infoCardContainer--info-card-home .infoCardHeadline{ 
+  color: #EAEAEA;
+}
+.infoCardContainer--info-card-home .infoCardTextContainer{ 
+  background-color: rgb(10, 202, 202);
+}
+
+
 
 .newsletter {
   background-color: #03054e;
